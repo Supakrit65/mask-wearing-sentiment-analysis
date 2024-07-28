@@ -44,36 +44,17 @@ mask-wearing-sentiment-analysis/
 ├── models/
 │   ├── GEMMA_2/
 │   ├── EmoLLama_chat_7b/
-│   └── …
-├── figures/
-│   ├── stance-dis-all.png
-│   ├── stance-dis-th.png
-│   ├── stance-dis-us.png
-│   ├── emotion-figure/
-│   │   ├── emo-th-us.png
-│   │   ├── anger-th-us.png
-│   │   ├── fear-th-us.png
-│   │   ├── all-emo-by-year.png
-│   └── …
-├── results/
-│   ├── tables/
-│   │   ├── stance_counts.csv
-│   │   ├── youtube_comments.csv
-│   │   └── …
-│   └── reports/
-│       ├── fine_tuning_results.txt
-│       ├── stance_analysis.txt
-│       ├── emotion_analysis.txt
-│       └── …
-└── paper/
-├── main.tex
-├── sections/
-│   ├── introduction.tex
-│   ├── related_work.tex
-│   ├── methodology.tex
-│   ├── experimental_results.tex
-│   ├── discussion.tex
-│   ├── conclusion.tex
+├── youtube_dataset/
+│   ├── code/
+│   │   ├── fetcher/
+│   │   │   ├── fetch_comments_th.ipynb
+│   │   │   ├── fetch_comments_us.ipynb
+│   │   ├── preprocess/
+│   │   │   ├── process_comments.ipynb
+│   │   │   ├── thai_to_english_translation_gemini.ipynb
+│   └── datasets/
+│       ├── th_mask_unlb.csv
+│       ├── us_mask_unlb.csv
 └── references.bib
 ```
 
