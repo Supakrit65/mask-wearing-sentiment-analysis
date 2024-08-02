@@ -3,7 +3,7 @@
 ![GitHub](https://img.shields.io/github/license/Supakrit65/mask-wearing-sentiment-analysis)
 
 ## Overview
-
+![alt text](methodology.png)
 This repository contains the code and data for the project conducted during my internship at the Social Computing Laboratory, NAIST. The project, titled  **“Comparative Analysis of Mask-Wearing Stance and Emotional Intensity in Thai and USA YouTube Comments during the COVID-19 Pandemic,"** aims to analyze public sentiment and emotional intensity towards mask-wearing. This is achieved using advanced NLP techniques and fine-tuning state-of-the-art models.
 
 ## Contents
